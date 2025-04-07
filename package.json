@@ -1,0 +1,32 @@
+{
+  "name": "get-keywords-func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidumoru/get-keywords-func.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/davidumoru/get-keywords-func/issues"
+  },
+  "homepage": "https://github.com/davidumoru/get-keywords-func#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "openai": "^4.92.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
