@@ -1,5 +1,7 @@
 # get-keywords
 
+Simple Express API that extracts 3–5 keywords from input text using OpenAI.
+
 ## Setup
 
 ```bash
